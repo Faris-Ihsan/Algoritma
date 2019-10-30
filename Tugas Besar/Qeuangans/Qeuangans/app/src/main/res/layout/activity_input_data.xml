@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".InputData">
+
+    <EditText
+        android:id="@+id/jenispemasukan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Pemasukan" />
+
+    <EditText
+        android:id="@+id/jmlpemasukan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Jumlah"/>
+
+    <TextView
+        android:id="@+id/tglpemasukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:text="Masukkan Tanggal"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/inputmasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="214dp"
+        android:text="Submit" />
+
+    <EditText
+        android:id="@+id/jenispengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:ems="10"
+        android:hint="Pengeluaran"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/jmlpengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:hint="Jumlah"
+        android:inputType="number" />
+
+</RelativeLayout>
